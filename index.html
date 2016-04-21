@@ -47,7 +47,7 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>An intelligent solution against allergies</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s" href="#">Get Started</a>
+            <a class="link animated fadeInUp delay-1s" style="background-color: #6ec625" href="#">Get Started</a>
     </div>
 </div>
 </header><!--header-end-->
@@ -157,12 +157,12 @@
 	</div>
 </section><!--main-section alabaster-end-->
 
-
+<div class=
 
 <section class="main-section paddind" id="Portfolio"><!--main-section-start-->
 	<div class="container">
-    	<h2>Portfolio</h2>
-    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+    	<h2>Feature</h2>
+    	<h6>A description of what our device can do</h6>
       <div class="portfolioFilter">  
         <ul class="Portfolio-nav wow fadeIn delay-02s">
         	<li><a href="#" data-filter="*" class="current" >All</a></li>
@@ -258,7 +258,7 @@
                 <p class="wow fadeInDown delay-03s">Protagonist in "Shigatsu wa Kimi no Uso"</p>
             </div>
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-03s"> 
+                <div class="team-leader wow fadeInDown delay-06s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/inaba.png" alt="">
                     <ul>
@@ -273,7 +273,7 @@
                 <p class="wow fadeInDown delay-03s">Protagonist in "Kokoro Connect"</p>
             </div>
             <div class="team-leader-box">
-                <div class="team-leader  wow fadeInDown delay-06s"> 
+                <div class="team-leader  wow fadeInDown delay-09s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/shizuku.jpg" alt="">
                     <ul>
@@ -288,7 +288,7 @@
                 <p class="wow fadeInDown delay-06s">Protagonist in "Tonari no Kaibutsu-kun"</p>
             </div>
             <div class="team-leader-box">
-                <div class="team-leader wow fadeInDown delay-09s"> 
+                <div class="team-leader wow fadeInDown delay-12s">
                     <div class="team-leader-shadow"><a href="#"></a></div>
                     <img src="img/shichika.jpeg" alt="">
                     <ul>
@@ -378,6 +378,7 @@
     });
 </script>
 
+
   <script>
     wow = new WOW(
       {
@@ -395,16 +396,16 @@
 		
 		$('.main-nav li a').bind('click',function(event){
 			var $anchor = $(this);
-			
+
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top - 102
 			}, 1500,'easeInOutExpo');
-			/*
+            /*
 			if you don't want to use the easing effects:
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top
 			}, 1000);
-			*/
+            */
 			event.preventDefault();
 		});
 	})
