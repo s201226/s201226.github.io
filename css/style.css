@@ -111,7 +111,7 @@ p{
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#ff6600;
+	color: #ffffff;
 }
 
 .we-create{
@@ -125,7 +125,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: #ffefef;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
@@ -160,11 +160,16 @@ color: #fff;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
+
+
+
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color: #eeff99 !important;
 	background:#fff;
 }
+
+/*attention when using another link object!!*/
 
 .link:active, .link:focus {
 	background: #7cc576;
@@ -181,15 +186,26 @@ color: #fff;
 	position:relative;
 	background:#fff;
 }
+
+.main-nav-outer01{
+	padding:0px;
+	box-shadow:0 4px 5px -3px #ececec;
+	position:relative;
+	background:#fff;
+}
+
+
 .main-nav{
 	text-align:center;
 	margin:10px 0 0px;
 	padding:0;
 	list-style:none;
+    background:#fff;
 }
 .main-nav li{
 	display:inline;
 	margin:0 1px;
+    background:#fff;
 }
 .main-nav li a{
 	display:inline-block;

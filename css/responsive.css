@@ -53,12 +53,14 @@
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
-	.header{ padding:60px 0;}
+	.header{ padding:60px 0; border-bottom:5px solid #7cc576}
 	.main-section{ padding:60px 0 70px;}
-	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+	.main-nav-outer01{width: 52px; height: 80px; border:1px solid #dddddd;}
+	.main-nav-outer{ display: block; border:0;}
+	.main-nav{ display:none; border:1px solid #dddddd; position:absolute; left:53px; width:80%; top:0px; margin:0; padding: 0; flote : none; background:#fff;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
-	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
+	.main-nav li a{ display:block; padding:7px 32px; border-bottom:0;}
 	.main-nav li a:hover{color:#7cc576}
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
