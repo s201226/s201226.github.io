@@ -96,6 +96,11 @@ p{
 /*btn-circle
 -------------------------------------------*/
 
+.glossary{
+	position: fixed;
+	z-index: 999;
+}
+
 .btn-circle {
   width: 30px;
   height: 30px;

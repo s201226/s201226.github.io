@@ -5,7 +5,9 @@
 
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
-	
+
+	.glossary{margin-top: 13%;}
+
 	.service-list{ margin-bottom:30px;}
 	.c-logo-part ul li{ margin:0 15px;}
 	.logo{width: 58%;}
@@ -17,6 +19,9 @@
    
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
+
+	.glossary{margin-top: 20%;}
+
 	body{ font-size:13px;}
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
@@ -48,6 +53,9 @@
 
 @media only screen and (max-width: 767px) {
 	/****Mobile Landscape 480 Container 100% ****/
+
+	.glossary{margin-top: 30%;}
+
 	body{ font-size:12px;}
 	h2{ font-size:26px;}
 	h3{ font-size:14px;}
@@ -97,6 +105,8 @@
 }
 
 @media only screen and (max-width: 479px) {
+
+	.glossary{margin-top: 35%;}
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
