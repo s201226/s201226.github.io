@@ -807,6 +807,12 @@ border: 2px solid #fff;
 	max-width: 1140px;
 }
 
+/*Pagination
+---------------------------------*/
+
+.index_pages{
+	text-align: center;
+}
 
 /* Animation Timers
 ---------------------------------*/

@@ -61,18 +61,20 @@
 <nav class="main-nav-outer" id="nav-scorr02" style="z-index: +3;"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
-        	<li><a href="#header">Home</a></li>
+            <li><a href="#header">Home</a></li>
             <li><a href="#vision">Vision</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#themes">Main Themes</a></li>
             <li class="small-logo"><a href="#header"><img src="img/dandelion.png" style="max-width:105px;" alt=""></a></li>
-            <li><a href="#client">Clients</a></li>
+            <li><a href="#Portfolio">Requirements</a></li>
             <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">About us</a></li>
         </ul>
     </div>
 </nav><!--main-nav-end-->
 
-
+<!--<ol class="breadcrumb">
+  <li class="active">Home</li>
+</ol>-->
 
 <section class="main-section" id="vision"><!--main-section-start-->
 	<div class="container">
@@ -150,12 +152,21 @@
                 </div>
             </div>
         </div>
+
+        <a class="Learn-More col-lg-12 col-sm-12 wow fadeInRight delay-10s" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">More specific</a>
 	</div>
+
+    <div class="container collapse" id="collapseExample">
+        <div class="well">
+            <p>Here will be displayed further informations</p>
+        </div>
+    </div>
+
 </section><!--main-section-end-->
 
 
 
-<section class="main-section alabaster"><!--main-section alabaster-start-->
+<section class="main-section alabaster" id="themes"><!--main-section alabaster-start-->
 	<div class="container">
     	<div class="row">
         	<div class="featured-work">
@@ -200,7 +211,7 @@
                         <p>The device can be used as a personal assistant which will transform the house in a safe area for everyone, especially for people with allergies. Why? The device will warn you if there is a dangerous situation, but there is more. In order to optimize its future behavior the device will ask you to judge its work through well focused questions and will try to adjust its functions in order to fulfill your desires.</p>
                     </div>
                 </div>
-                <a class="Learn-More col-lg-12 col-sm-12 wow fadeInRight delay-12s" href="Features.html">Learn More</a>
+                <a class="Learn-More col-lg-12 col-sm-12 wow fadeInRight delay-12s" href="themes-main.html">Learn More</a>
             </div>
         </div>
 	</div>
@@ -223,18 +234,8 @@
 	</div>
     <div class="portfolioContainer wow fadeInUp delay-04s">
             	<div class=" Portfolio-box f_requirement">
-                	<a href="#"><img src="img/placeholder.gif" alt=""></a>
+                	<a data-toggle="modal" data-target="#myModal"><img src="img/placeholder.gif" alt=""></a>
                 	<h3>Functional Requirement #1</h3>
-                    <p>Short description</p>
-                </div>
-                <div class="Portfolio-box nf_requirement">
-                	<a href="#"><img src="img/placeholder.gif" alt=""></a>
-                	<h3>Non-Functional Requirement #1</h3>
-                    <p>Short description</p>
-                </div>
-                <div class=" Portfolio-box f_requirement">
-                	<a href="#"><img src="img/placeholder.gif" alt=""></a>
-                	<h3>Functional Requirement #2</h3>
                     <p>Short description</p>
                 </div>
                 <div class=" Portfolio-box nf_requirement" >
@@ -252,8 +253,34 @@
                 	<h3>Non-Functional Requirement #4</h3>
                     <p>Short description</p>
                 </div>
+                <div class=" Portfolio-box nf_requirement">
+                	<a href="#"><img src="img/placeholder.gif" alt=""></a>
+                	<h3>Non-Functional Requirement #4</h3>
+                    <p>Short description</p>
+                </div>
+                <div class=" Portfolio-box nf_requirement">
+                    <a class="Learn-More" href="Requirements.html"><br><br>More requirements...</a>
+                </div>
     </div>
 </section><!--main-section-end-->
+
+<!--Modal-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <section class="main-section client-part" id="client"><!--main-section client-part-start-->
